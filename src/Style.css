@@ -1,0 +1,59 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.title__center {
+  text-align: center;
+}
+
+.home__body {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
+.home__body__left {
+  margin: 12px;
+}
+
+.home__body__right {
+  margin: 12px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__container input {
+  height: 40px;
+  margin-right: 20px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.form__container button {
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.list__container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.list__container .item {
+  padding: 5px 15px;
+  font-size: 24px;
+  background-color: darkgray;
+  margin: 5px;
+  overflow: hidden;
+}
